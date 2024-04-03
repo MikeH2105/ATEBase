@@ -2,16 +2,16 @@ const CATALOG = [
     {
         id: 'el1',
         name: 'АВ6620ЕС',
-        polic: '2024.05.01',
-        inspection: '2024.05.01',
-        taxo: '2024.05.01', 
+        polic: '2024.01.01',
+        inspection: '2024.04.01',
+        taxo: '2024.01.01', 
     },
 
     {
         id: 'el2',
         name: 'АВ5289CI',
         polic: '2024.09.01',
-        inspection: '2024.04.01',
+        inspection: '2024.04.05',
         taxo: '25.06.2024', 
     },
     {

@@ -15,20 +15,45 @@
         for (let i = 0; i < CATALOG.length; i++) {
             let item = document.createElement('div')
             item.classList.add('item')
-            let red =""
-            if((Date.parse(CATALOG[i]["polic"]))<(Date.now()))
-            {red="_red"
+            let colorI =" "
+            let color =" "
+            let colorT =" "
+            if((Date.parse(CATALOG[i]["polic"]))<(Date.now()-604800000))    {
+                colorI="_red"  
             }
-        
+            else if((Date.parse(CATALOG[i]["polic"]))<(Date.now())){
+                colorI="_yellow"               
+            }
+            else{
+                colorI ="_gray"
+            }
+            if((Date.parse(CATALOG[i]["inspection"]))<(Date.now()-604800000))    {
+                color="_red"  
+            }
+            else if((Date.parse(CATALOG[i]["inspection"]))<(Date.now())){
+                color="_yellow"               
+            }
+            else{
+                color="_gray"
+            }
+            if((Date.parse(CATALOG[i]["taxo"]))<(Date.now()-604800000))    {
+                colorT="_red"  
+            }
+            else if((Date.parse(CATALOG[i]["taxo"]))<(Date.now())){
+                colorT="_yellow"               
+            }
+            else{
+                colorT="_gray"
+            }
+
             item.innerHTML= `
            
-
-
-            Номер: ${CATALOG[i]["name"]}<br>
-            <span class="polic${red}">Страховка: ${CATALOG[i]["polic"]}</span>
-            <li> ${Date.now()}</li>
-            <li> ${Date.parse(CATALOG[i]["polic"])}</li>
-            <li> ${(Date.parse(CATALOG[i]["polic"]))-(Date.now())}</li>
+            <ul class=Head">Номер: ${CATALOG[i]["name"]}</ul>
+            <li class="polic${colorI}">Страховка: ${CATALOG[i]["polic"]}</li>
+            <li class="inspection${color}">Техогляд: ${CATALOG[i]["inspection"]}</li>
+            <li class="taxo${colorT}">Тахограф: ${CATALOG[i]["taxo"]}</li>
+           
+      
             `
             document.querySelector(`.items`).append(item)
             

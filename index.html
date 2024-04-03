@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaseATE10556</title>
+    <link rel="icon" href="/MyProgect/favicon.png">
+    <link rel="stylesheet" href="/MyProgect/style.css">
+</head>
+<body>
+    <div class="items"></div>
+    <script src="/MyProgect/catalog.js"></script>
+
+    <script >
+        for (let i = 0; i < CATALOG.length; i++) {
+            let item = document.createElement('div')
+            item.classList.add('item')
+            let red =""
+            if((Date.parse(CATALOG[i]["polic"]))<(Date.now()))
+            {red="_red"
+            }
+        
+            item.innerHTML= `
+           
+
+
+            Номер: ${CATALOG[i]["name"]}<br>
+            <span class="polic${red}">Страховка: ${CATALOG[i]["polic"]}</span>
+            <li> ${Date.now()}</li>
+            <li> ${Date.parse(CATALOG[i]["polic"])}</li>
+            <li> ${(Date.parse(CATALOG[i]["polic"]))-(Date.now())}</li>
+            `
+            document.querySelector(`.items`).append(item)
+            
+        }
+    </script>
+
+    
+</body>
+</html>

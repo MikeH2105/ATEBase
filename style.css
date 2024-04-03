@@ -10,11 +10,44 @@
     width: max-content;
     
 }
+.Head{
+    font-weight: 100;
+    
 
-.polic{
+}
+
+.polic_gray{
     background-color: gainsboro;
 }
 
 .polic_red{
     background-color: rgb(255, 0, 13);
+}
+
+.polic_yellow{
+    background-color: yellow;
+}
+
+.inspection_gray{
+    background-color: gainsboro;
+}
+
+.inspection_red{
+    background-color: rgb(255, 0, 13);
+}
+
+.inspection_yellow{
+    background-color: yellow;
+}
+
+.taxo_gray{
+    background-color: gainsboro;
+}
+
+.taxo_red{
+    background-color: rgb(255, 0, 13);
+}
+
+.taxo_yellow{
+    background-color: yellow;
 }

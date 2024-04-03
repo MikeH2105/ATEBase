@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BaseATE10556</title>
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/MyProgect/favicon.png">
+    <link rel="stylesheet" href="/MyProgect/style.css">
 </head>
 <body>
     <div class="items"></div>
-    <script src="catalog.js"></script>
+    <script src="/MyProgect/catalog.js"></script>
 
     <script >
         for (let i = 0; i < CATALOG.length; i++) {
@@ -18,28 +18,28 @@
             let colorI =" "
             let color =" "
             let colorT =" "
-            if((Date.parse(CATALOG[i]["polic"]))<(Date.now()-604800000))    {
+            if((Date.parse(CATALOG[i]["polic"]))<(Date.now()))    {
                 colorI="_red"  
             }
-            else if((Date.parse(CATALOG[i]["polic"]))<(Date.now())){
+            else if((Date.parse(CATALOG[i]["polic"]))<(Date.now())+604800000){
                 colorI="_yellow"               
             }
             else{
                 colorI ="_gray"
             }
-            if((Date.parse(CATALOG[i]["inspection"]))<(Date.now()-604800000))    {
+            if((Date.parse(CATALOG[i]["inspection"]))<(Date.now()))    {
                 color="_red"  
             }
-            else if((Date.parse(CATALOG[i]["inspection"]))<(Date.now())){
+            else if((Date.parse(CATALOG[i]["inspection"]))<(Date.now()+604800000)){
                 color="_yellow"               
             }
             else{
                 color="_gray"
             }
-            if((Date.parse(CATALOG[i]["taxo"]))<(Date.now()-604800000))    {
+            if((Date.parse(CATALOG[i]["taxo"]))<(Date.now()))    {
                 colorT="_red"  
             }
-            else if((Date.parse(CATALOG[i]["taxo"]))<(Date.now())){
+            else if((Date.parse(CATALOG[i]["taxo"]))<(Date.now())+604800000){
                 colorT="_yellow"               
             }
             else{
@@ -48,7 +48,7 @@
 
             item.innerHTML= `
            
-            <ul class=Head"> ${CATALOG[i]["name"]}</ul>
+            <ul class=Head">Номер: ${CATALOG[i]["name"]}</ul>
             <li class="polic${colorI}">Страховка: ${CATALOG[i]["polic"]}</li>
             <li class="inspection${color}">Техогляд: ${CATALOG[i]["inspection"]}</li>
             <li class="taxo${colorT}">Тахограф: ${CATALOG[i]["taxo"]}</li>

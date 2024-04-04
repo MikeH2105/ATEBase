@@ -50,7 +50,7 @@ const CATALOG = [
     {
         id: 'el4',
         name: 'АВ7243СК',
-        polic: '2024.03.11',
+        polic: '2024.11.03',
         inspection: '2024.11.01',
         taxo: '2024.11.01', 
     },
@@ -196,6 +196,8 @@ const CATALOG = [
         inspection: '2024-09-19',
         taxo: '---------------',
     },
+
+
 
 
 ]

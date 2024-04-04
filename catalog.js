@@ -23,11 +23,27 @@ const CATALOG = [
     },
 
     {
+        id: 'el2-2',
+        name: 'АВ9626XT ',
+        polic: '2025.08.02',
+        inspection: '2025.01.25',
+        taxo: '2023.12.23',
+    },
+
+    {
         id: 'el3',
         name: 'АВ6620ЕС',
         polic: '2024.09.07',
         inspection: '2024.10.23',
         taxo: '2024.12.10', 
+    },
+
+    {
+        id: 'el3-3',
+        name: 'АВ4892XT',
+        polic: '2025.02.06',
+        inspection: '2024.12.11',
+        taxo: '---------------', 
     },
 
     {
@@ -37,6 +53,17 @@ const CATALOG = [
         inspection: '2024.11.01',
         taxo: '2024.11.01', 
     },
+
+    {
+        id: 'el4-4',
+        name: 'AB4382XK',
+        polic: '2025-03-04',
+        inspection: '2025-03-04',
+        taxo: '---------------', 
+    },
+
+
+
     {
         id: 'el5',
         name: 'АВ7644ЕН',

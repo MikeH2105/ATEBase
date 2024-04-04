@@ -1,23 +1,24 @@
 
-
+.items {
+    width:auto;
+    display:ruby
+  
+}
 .item {
-    flex-direction: column;
+    
     justify-content: flex-end;
     padding: 10px 10px;
     border-radius: 10px;
     box-shadow: 10px;  
     margin: 2%;
     width: max-content;
-    font-family: 'Arial';
+    font-family: Arial;
     font-size: 20px;
-    background-color: rgb(184, 226, 219);
-    column-width: auto;
-    display: grid;
-  
+    background-color: rgb(184, 226, 219);    
 }
-
 .Head{
     font-weight: 100;
+    font-family: Tahoma;
     
 
 }
@@ -28,32 +29,40 @@
 
 .polic_red{
     background-color: rgb(255, 0, 13);
+    border-radius: 10px;
 }
 
 .polic_yellow{
     background-color: yellow;
+    border-radius: 10px;
 }
 
 .inspection_gray{
     background-color: gainsboro;
+  
 }
 
 .inspection_red{
     background-color: rgb(255, 0, 13);
+    border-radius: 10px;
 }
 
 .inspection_yellow{
     background-color: yellow;
+    border-radius: 10px;
 }
 
 .taxo_gray{
     background-color: gainsboro;
+    
 }
 
 .taxo_red{
     background-color: rgb(255, 0, 13);
+    border-radius: 10px;
 }
 
 .taxo_yellow{
     background-color: yellow;
+    border-radius: 10px;
 }

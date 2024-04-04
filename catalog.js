@@ -111,7 +111,7 @@ const CATALOG = [
 
     {
         id: 'el7-1',
-        name: 'АВ9268СХ ',
+        name: 'АВ4060XP ',
         polic: '2024-12-09',
         inspection: '2024-10-11',
         taxo: '---------------', 

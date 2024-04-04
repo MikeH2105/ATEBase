@@ -1,7 +1,7 @@
 
 .items {
-    width:auto;
-    display:ruby
+    width:100%;
+    display:flex
   
 }
 .item {
@@ -13,7 +13,7 @@
     margin: 2%;
     width: max-content;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 25px;
     background-color: rgb(184, 226, 219);    
 }
 .Head{

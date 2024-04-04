@@ -8,13 +8,14 @@
     box-shadow: 10px;  
     margin: 2%;
     width: max-content;
-    font-family: 'Arial Black';
+    font-family: 'Arial';
     font-size: 20px;
     background-color: rgb(184, 226, 219);
     column-width: auto;
     display: grid;
-    
+  
 }
+
 .Head{
     font-weight: 100;
     

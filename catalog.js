@@ -28,7 +28,7 @@ const CATALOG = [
         name: 'АВ9626XT ',
         polic: '2025.08.02',
         inspection: '2025.01.25',
-        taxo: '2023.12.23',
+        taxo: '---------------', 
     },
 
     {

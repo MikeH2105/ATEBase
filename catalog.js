@@ -92,7 +92,7 @@ const CATALOG = [
 
     {
         id: 'el6-1',
-        name: 'АВ0016XX ',
+        name: 'АВ0016XX',
         polic: '2024-12-06',
         inspection: '2024.10.24',
         taxo: '---------------',
@@ -103,7 +103,7 @@ const CATALOG = [
         name: 'АВ9268СХ ',
         polic: '2024.11.22',
         inspection: '2024.11.08',
-        taxo: '1900.12.30', 
+        taxo: '2024.10.24', 
     },
 
     {
@@ -273,6 +273,9 @@ const CATALOG = [
         inspection: '2024-10-22',
         taxo: '---------------',
     },
+
+
+
 
 
 

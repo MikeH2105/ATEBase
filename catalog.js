@@ -26,7 +26,7 @@ const CATALOG = [
     {
         id: 'el4',
         name: 'АВ 72-43 СК',
-        polic: '2024.03.11',
+        polic: '2024.11.03',
         inspection: '2024.11.01',
         taxo: '2024.11.01', 
     },

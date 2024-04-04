@@ -1,16 +1,9 @@
 
-.items {
-    width:100%;
-    display:flex
-  
-}
+
 .item {
     
-    justify-content: flex-end;
-    padding: 10px 10px;
+    padding: auto;
     border-radius: 10px;
-    box-shadow: 10px;  
-    margin: 2%;
     width: max-content;
     font-family: Arial;
     font-size: 25px;
@@ -19,7 +12,7 @@
 .Head{
     font-weight: 100;
     font-family: Tahoma;
-    
+    font-size: 50px;
 
 }
 

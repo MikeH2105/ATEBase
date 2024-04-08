@@ -349,8 +349,8 @@ const CATALOG = [
     {
         id: 'el22-1',
         name: 'АВ1135ХМ',
-        polic: '1900-12-30',
-        inspection: '1900-12-30',
+        polic: '2025-04-08',
+        inspection: '2025-04-08',
         taxo: '---------------',
     },
 

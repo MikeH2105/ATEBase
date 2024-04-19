@@ -1,6 +1,7 @@
 const CATALOG = [
     {
         id: 'el1',
+        driver: 'Дука Андрій Іванович 0672505378',
         name: 'АВ5289СІ ',
         polic: '2024.12.06',
         inspection: '2024.11.20',
@@ -9,6 +10,7 @@ const CATALOG = [
 
     {
         id: 'el1-1',
+        driver: '---------------', 
         name: 'АВ0501XM ',
         polic: '2025.01.17',
         inspection: '2025.01.25',
@@ -537,6 +539,14 @@ const CATALOG = [
         name: 'АВ3487ХР',
         polic: '2025-02-08',
         inspection: '2025-04-10',
+        taxo: '---------------',
+    },
+
+    {
+        id: 'el36-1',
+        name: 'AB4893XT',
+        polic: '2025-04-19',
+        inspection: '2024-04-25',
         taxo: '---------------',
     },
 

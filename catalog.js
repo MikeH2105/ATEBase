@@ -490,7 +490,7 @@ const CATALOG = [
         id: 'el32',
         name: 'АВ1304КА',
         polic: '2024-09-19',
-        inspection: '2024-09-10',
+        inspection: '2025-09-10',
         taxo: '2025-07-09',
     },
 

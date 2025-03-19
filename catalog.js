@@ -70,8 +70,8 @@ const CATALOG = [
     {
         id: 'el11-1',
         name: 'АВ4137ХТ',
-        polic: '2024-09-22',
-        inspection: '2024-10-05',
+        polic: '2025.09.22',
+        inspection: '2025.10.07',
         taxo: '---------------',
     },
 

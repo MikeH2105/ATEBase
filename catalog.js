@@ -1,15 +1,15 @@
  let cars = [
       {
-        number: "АА1234ВС",
-        insuranceDate: "2025-04-27",
-        techInspectionDate: "2025-06-15",
-        tachographCertificateDate: "2025-07-01"
+        number: "АВ8018ІО",
+        insuranceDate: "2025-12-09",
+        techInspectionDate: "2025-12-02",
+        tachographCertificateDate: "2023-12-23"
       },
       {
-        number: "СА4321НА",
-        insuranceDate: "2025-05-10",
-        techInspectionDate: "2025-06-01",
-        tachographCertificateDate: "2025-07-15"
+        number: "АВ9268СХ",
+        insuranceDate: "23.11.2025",
+        techInspectionDate: "07.11.2025",
+        tachographCertificateDate: "30.12.1900"
       }
     ];
 

@@ -7,14 +7,14 @@
       },
       {
         number: "АВ9268СХ",
-        insuranceDate: "23.11.2025",
-        techInspectionDate: "07.11.2025",
-        tachographCertificateDate: "30.12.1900"
+        insuranceDate: "2025-11-23",
+        techInspectionDate: "2025-11-07",
+        tachographCertificateDate: "1900-12-30"
       },
         {
         number: "АВ8094ЕК",
-        insuranceDate: "04.09.2025",
-        techInspectionDate: "04.09.2025",
+        insuranceDate: "2025-09-04",
+        techInspectionDate: "2025-09-04",
         tachographCertificateDate: "30.12.1900"
       }
     ];
@@ -22,12 +22,12 @@
     let trailers = [
       {
         number: "АВ0016ХХ",
-        insuranceDate: "07.12.2025",
-        techInspectionDate: "02.12.2025"
+        insuranceDate: "2025-12-07",
+        techInspectionDate: "2025-12-02"
       },
       {
         number: "АВ9656ХМ",
-        insuranceDate: "04.11.2025",
-        techInspectionDate: "27.03.2026"
+        insuranceDate: "2025-11-04",
+        techInspectionDate: "2026-03-27"
       }
     ];

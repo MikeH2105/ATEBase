@@ -23,6 +23,60 @@
         techInspectionDate: "2025-10-22",
         tachographCertificateDate: "2024-11-23"
       },
+      {
+        number: "АВ7704HM",
+        insuranceDate: "2025-11-26",
+        techInspectionDate: "2025-11-20",
+        tachographCertificateDate: "2024-11-15"
+      },
+      {
+        number: "CE1031AT",
+        insuranceDate: "2024-12-18",
+        techInspectionDate: "2024-12-18",
+        tachographCertificateDate: "1900-12-30"
+      },
+      {
+        number: "AB3045BX",
+        insuranceDate: "2025-09-06",
+        techInspectionDate: "2025-09-11",
+        tachographCertificateDate: "2025-10-01"
+      },
+      {
+        number: "AB1905IH",
+        insuranceDate: "2026-02-16",
+        techInspectionDate: "2026-02-04",
+        tachographCertificateDate: "2026-02-10"
+      },
+      {
+        number: "AB1884CP",
+        insuranceDate: "2025-10-10",
+        techInspectionDate: "2025-10-10",
+        tachographCertificateDate: "2025-01-30"
+      },
+      {
+        number: "AB4219EK",
+        insuranceDate: "2025-09-24",
+        techInspectionDate: "2025-09-24",
+        tachographCertificateDate: "2025-03-29"
+      },
+      {
+        number: "AB9943BC",
+        insuranceDate: "2025-04-26",
+        techInspectionDate: "17-04-2026",
+        tachographCertificateDate: "05-07-2023"
+      },
+      {
+        number: "AB7847CO",
+        insuranceDate: "2025-11-25",
+        techInspectionDate: "2026-01-29",
+        tachographCertificateDate: "2023-07-19"
+      },
+        {
+        number: "AB4759IT",
+        insuranceDate: "2025-09-03",
+        techInspectionDate: "2026-01-16",
+        tachographCertificateDate: "2025-09-01"
+      },
        {
         number: "АВ5337СЕ",
         insuranceDate: "2025-07-30",

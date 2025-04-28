@@ -76,7 +76,7 @@
         number: "АВ8094ЕК",
         insuranceDate: "2025-09-04",
         techInspectionDate: "2025-09-04",
-        tachographCertificateDate: "30.12.1900"
+        tachographCertificateDate: "1900-12-30"
       }
     ];
 

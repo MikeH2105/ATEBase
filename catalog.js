@@ -29,6 +29,12 @@
         techInspectionDate: "2026-04-22",
         tachographCertificateDate: "2023-07-05"
       },
+      {
+        number: "АВ1998СВ",
+        insuranceDate: "2025-07-10",
+        techInspectionDate: "2025-07-19",
+        tachographCertificateDate: "2025-01-23"
+      },
        {
         number: "АВ2345ВН",
         insuranceDate: "2025-07-06",
@@ -58,7 +64,18 @@
         number: "АВ2891ХТ",
         insuranceDate: "2026-02-18",
         techInspectionDate: "2026-02-12"
-      },  
+      }, 
+      {
+        number: "АВ7265ХК",
+        insuranceDate: "2025-09-24",
+        techInspectionDate: "2025-09-24"
+      }, 
+      {
+        number: "АВ0561ХР",
+        insuranceDate: "2026-03-05",
+        techInspectionDate: "2025-05-02"
+      }, 
+     
       {
         number: "АВ2085ХТ",
         insuranceDate: "2025-07-06",
@@ -79,4 +96,17 @@
         insuranceDate: "2025-11-04",
         techInspectionDate: "2026-03-27"
       }
+     
+
+
+
+
+
+
+
+
+
+
+
+     
     ];

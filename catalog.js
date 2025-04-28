@@ -144,6 +144,57 @@
         techInspectionDate: "2025-10-08"
       }, 
       {
+        number: "АВ8959ХМ",
+        insuranceDate: "2025-08-09",
+        techInspectionDate: "2025-08-06"
+      }, 
+      {
+        number: "АВ1412ХО",
+        insuranceDate: "2025-05-08",
+        techInspectionDate: "2025-05-07"
+      }, 
+      {
+        number: "АВ1135ХМ",
+        insuranceDate: "2026-04-09",
+        techInspectionDate: "2026-04-09"
+      }, 
+      {
+        number: "АВ4314ХМ",
+        insuranceDate: "2025-12-14",
+        techInspectionDate: "2025-12-12"
+      }, 
+      {
+        number: "АВ7135ХК",
+        insuranceDate: "2025-12-07",
+        techInspectionDate: "2025-12-08"
+      }, 
+      {
+        number: "АВ9281ХК",
+        insuranceDate: "2026-01-19",
+        techInspectionDate: "2026-01-16"
+      }, 
+       {
+        number: "АВ2883ХТ",
+        insuranceDate: "2025-09-12",
+        techInspectionDate: "2025-09-13"
+      }, 
+      {
+        number: "АВ2075ХМ",
+        insuranceDate: "2025-12-13",
+        techInspectionDate: "2025-12-12"
+      }, 
+      {
+        number: "АВ4438ХК",
+        insuranceDate: "2025-04-13",
+        techInspectionDate: "2025-08-12"
+      }, 
+      {
+        number: "АВ047ХF",
+        insuranceDate: "2025-10-11",
+        techInspectionDate: "2025-10-11"
+      }, 
+     
+      {
         number: "АВ9656ХМ",
         insuranceDate: "2025-11-04",
         techInspectionDate: "2026-03-27"

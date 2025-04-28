@@ -1,64 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BaseATE10556</title>
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій перший сайт</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/script.js"></script>
+  <script src="/catalog.js"></script>
+ 
+
 </head>
 <body>
-    <div class="items"></div>
-    <script src="catalog.js"></script>
 
-    <script >
-        for (let i = 0; i < CATALOG.length; i++) {
-            let item = document.createElement('div')
-            item.classList.add('item')
-            let colorI =" "
-            let color =" "
-            let colorT =" "
-            if((Date.parse(CATALOG[i]["polic"]))<(Date.now()))    {
-                colorI="_red"  
-            }
-            else if((Date.parse(CATALOG[i]["polic"]))<(Date.now())+604800000){
-                colorI="_yellow"               
-            }
-            else{
-                colorI ="_gray"
-            }
-            if((Date.parse(CATALOG[i]["inspection"]))<(Date.now()))    {
-                color="_red"  
-            }
-            else if((Date.parse(CATALOG[i]["inspection"]))<(Date.now()+604800000)){
-                color="_yellow"               
-            }
-            else{
-                color="_gray"
-            }
-            if((Date.parse(CATALOG[i]["taxo"]))<(Date.now()))    {
-                colorT="_red"  
-            }
-            else if((Date.parse(CATALOG[i]["taxo"]))<(Date.now())+604800000){
-                colorT="_yellow"               
-            }
-            else{
-                colorT="_gray"
-            }
+<h1>База транспортних засобів</h1>
+<p>Цей вебсайт містить актуальну інформацію про автомобілі та напівпричепи компанії.</p>
 
-            item.innerHTML= `
-           
-            <ul class=Head">${CATALOG[i]["name"]}</ul>
-            <li class="polic${colorI}">🚨Страховка: ${CATALOG[i]["polic"]}</li>
-            <li class="inspection${color}">🔬Техогляд: ${CATALOG[i]["inspection"]}</li>
-            <li class="taxo${colorT}">💿Тахограф: ${CATALOG[i]["taxo"]}</li>
+  <h2>Пошук за номером</h2>
+  <input type="text" id="searchInput" placeholder="Введіть номер..." />
 
-            `
-            document.querySelector(`.items`).append(item)
-            
-        }
-    </script>
+  <h2>Автомобілі</h2>
+  <div id="cars-list"></div>
 
-    
+  <h2>Напівпричепи</h2>
+  <div id="trailers-list"></div>
+
+
 </body>
 </html>

@@ -247,7 +247,16 @@
         insuranceDate: "2025-10-11",
         techInspectionDate: "2025-10-11"
       }, 
-     
+      {
+        number: "АВ8399ХР",
+        insuranceDate: "2025-05-06",
+        techInspectionDate: "2025-05-05"
+      }, 
+      {
+        number: "АВ3480ХG",
+        insuranceDate: "2025-05-06",
+        techInspectionDate: "2025-05-06"
+      }, 
       {
         number: "АВ9656ХМ",
         insuranceDate: "2025-11-04",

@@ -261,13 +261,12 @@
         number: "АВ9656ХМ",
         insuranceDate: "2025-11-04",
         techInspectionDate: "2026-03-27"
-      }
+      },
   {
         number: "АВ4892ХТ",
         insuranceDate: "2026-04-22",
         techInspectionDate: "2026-04-22"
-      },      
-
+      }
 
 
 

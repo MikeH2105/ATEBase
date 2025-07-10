@@ -128,8 +128,8 @@
       },
          {
         number: "АВ8960EK",
-        insuranceDate: "2025-07-06",
-        techInspectionDate: "2025-07-01",
+        insuranceDate: "2025-09-03",
+        techInspectionDate: "2025-09-04",
         tachographCertificateDate: "2027-07-10"
       },
        {

@@ -126,6 +126,12 @@
         techInspectionDate: "2025-07-01",
         tachographCertificateDate: "2024-06-28"
       },
+         {
+        number: "АВ8960EK",
+        insuranceDate: "2025-07-06",
+        techInspectionDate: "2025-07-01",
+        tachographCertificateDate: "2027-07-10"
+      },
        {
         number: "АВ8094ЕК",
         insuranceDate: "2025-09-04",

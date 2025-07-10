@@ -239,7 +239,7 @@
       }, 
       {
         number: "АВ4438ХК",
-        insuranceDate: "2025-04-13",
+        insuranceDate: "2026-07-09",
         techInspectionDate: "2025-08-12"
       }, 
       {

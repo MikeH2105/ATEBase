@@ -122,9 +122,9 @@
       },
        {
         number: "АВ2345ВН",
-        insuranceDate: "2025-07-06",
-        techInspectionDate: "2025-07-01",
-        tachographCertificateDate: "2024-06-28"
+        insuranceDate: "2026-08-04",
+        techInspectionDate: "2026-08-05",
+        tachographCertificateDate: "2027-08-05"
       },
          {
         number: "АВ8960EK",
@@ -285,3 +285,4 @@
 
      
     ];
+

@@ -256,7 +256,12 @@
       {
         number: "АВ8399ХР",
         insuranceDate: "2025-05-06",
-        techInspectionDate: "2025-05-05"
+        techInspectionDate: "2026-05-05"
+      }, 
+           {
+        number: "АВ8958ХМ",
+        insuranceDate: "2025-05-06",
+        techInspectionDate: "2026-08-05"
       }, 
       {
         number: "АВ3480ХG",
@@ -285,4 +290,5 @@
 
      
     ];
+
 

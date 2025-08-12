@@ -246,7 +246,7 @@
       {
         number: "АВ4438ХК",
         insuranceDate: "2026-07-09",
-        techInspectionDate: "2025-08-12"
+        techInspectionDate: "2026-08-12"
       }, 
       {
         number: "АВ047ХF",
@@ -290,6 +290,7 @@
 
      
     ];
+
 
 
 

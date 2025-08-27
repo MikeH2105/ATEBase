@@ -116,9 +116,9 @@
   
       {
         number: "АВ1998СВ",
-        insuranceDate: "2025-07-10",
-        techInspectionDate: "2025-07-19",
-        tachographCertificateDate: "2025-01-23"
+        insuranceDate: "2026-08-27",
+        techInspectionDate: "2026-08-27",
+        tachographCertificateDate: "2027-01-23"
       },
        {
         number: "АВ2345ВН",
@@ -290,6 +290,7 @@
 
      
     ];
+
 
 
 

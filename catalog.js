@@ -73,7 +73,7 @@
       },
         {
         number: "AB4759IT",
-        insuranceDate: "2025-09-03",
+        insuranceDate: "2026-09-04",
         techInspectionDate: "2026-01-16",
         tachographCertificateDate: "2025-09-01"
       },
@@ -290,6 +290,7 @@
 
      
     ];
+
 
 
 

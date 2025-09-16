@@ -273,6 +273,11 @@
         insuranceDate: "2025-11-04",
         techInspectionDate: "2026-03-27"
       },
+      {
+        number: "AB7085XF",
+        insuranceDate: "2026-09-15",
+        techInspectionDate: "2026-09-15"
+      },
   {
         number: "АВ4892ХТ",
         insuranceDate: "2026-04-22",
@@ -280,16 +285,9 @@
       }
 
 
-
-
-
-
-
-
-
-
      
     ];
+
 
 
 

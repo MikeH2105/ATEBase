@@ -278,6 +278,11 @@
         insuranceDate: "2026-09-15",
         techInspectionDate: "2026-09-15"
       },
+      {
+        number: "AB5652XT",
+        insuranceDate: "2025-10-11",
+        techInspectionDate: "2026-09-16"
+      },
   {
         number: "АВ4892ХТ",
         insuranceDate: "2026-04-22",
@@ -287,6 +292,7 @@
 
      
     ];
+
 
 
 

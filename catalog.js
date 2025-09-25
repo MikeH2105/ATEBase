@@ -105,7 +105,7 @@
         number: "АВ8613ВХ",
         insuranceDate: "2026-07-29",
         techInspectionDate: "2026-07-28",
-        tachographCertificateDate: "2025-01-29"
+        tachographCertificateDate: "2027-09-25"
       },
        {
         number: "АВ8053СМ",
@@ -292,6 +292,7 @@
 
      
     ];
+
 
 
 

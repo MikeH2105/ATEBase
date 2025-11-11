@@ -13,7 +13,13 @@
       },
        {
         number: "АВ4218ЕК",
-        insuranceDate: "2025-11-13",
+        insuranceDate: "2026-11-12",
+        techInspectionDate: "2025-11-18",
+        tachographCertificateDate: "2025-13-06"
+      },
+         {
+        number: "AB6442EK",
+        insuranceDate: "2026-11-11",
         techInspectionDate: "2025-11-18",
         tachographCertificateDate: "2025-13-06"
       },
@@ -292,6 +298,7 @@
 
      
     ];
+
 
 
 

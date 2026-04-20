@@ -2,23 +2,93 @@
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ATE Base</title>
-<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f0f2f5;
+}
+
+.container{
+    width:100%;
+    max-width:500px;
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:40px;
+}
+
+.menu{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.btn{
+    display:block;
+    padding:25px;
+    font-size:20px;
+    font-weight:bold;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    text-decoration:none;
+    color:white;
+}
+
+/* кнопки */
+.btn-insurance{
+    background:#007bff;
+}
+
+.btn-profit{
+    background:#28a745;
+}
+
+/* hover */
+.btn:hover{
+    opacity:0.9;
+}
+
+/* для ПК — можна в ряд */
+@media (min-width:600px){
+    .menu{
+        flex-direction:row;
+    }
+    .btn{
+        flex:1;
+    }
+}
+</style>
+
 </head>
 
 <body>
+
+<div class="container">
 
 <h1>ATE Base</h1>
 
 <div class="menu">
 
-<a href="insurance.html">
-<button>База страховок</button>
+<a href="insurance.html" class="btn btn-insurance">
+📋 База страхувань
 </a>
 
-<a href="profit.html">
-<button>Калькулятор рентабельності рейсу</button>
+<a href="profit.html" class="btn btn-profit">
+📊 Калькулятор рейсу
 </a>
+
+</div>
 
 </div>
 

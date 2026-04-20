@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Калькулятор рентабельності рейсу</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+.container{display:flex;gap:40px;margin-top:20px;}
+.left{width:320px;}
+.right{flex:1;background:#f3f3f3;padding:20px;border-radius:10px;}
+input{width:100%;padding:6px;margin-bottom:10px;}
+.resultBlock{margin-bottom:30px;}
+.good{color:green;font-weight:bold;}
+.medium{color:#d6a000;font-weight:bold;}
+.low{color:black;font-weight:bold;}
+.bad{color:red;font-weight:bold;}
+</style>
+
+<script>
+function calculateTrip(){
+
+let emptyKm = Number(document.getElementById("emptyKm").value) || 0;
+let loadedKm = Number(document.getElementById("loadedKm").value) || 0;
+let weight = Number(document.getElementById("weight").value) || 0;
+let fuelNorm = Number(document.getElementById("fuelNorm").value) || 0;
+let cargoCoef = Number(document.getElementById("cargoCoef").value) || 0;
+let fuelPrice = Number(document.getElementById("fuelPrice").value) || 0;
+let extraCosts = Number(document.getElementById("extraCosts").value) || 0;
+let freight = Number(document.getElementById("freight").value) || 0;
+
+let driverPercent = Number(document.getElementById("driverPercent").value) || 0;
+let amortPercent = Number(document.getElementById("amortPercent").value) || 0;
+
+let totalKm = emptyKm + loadedKm;
+let tonKm = loadedKm * weight;
+
+let fuelConsumption = ((fuelNorm * totalKm)/100) + ((emptyKm*cargoCoef*weight)/100);
+let fuelCost = fuelConsumption * fuelPrice;
+let totalCosts = fuelCost + extraCosts;
+
+let fuelPerKm = totalKm ? fuelConsumption/totalKm : 0;
+let costPerKm = totalKm ? totalCosts/totalKm : 0;
+let costPerTon = weight ? totalCosts/weight : 0;
+
+let percentSum = (driverPercent + amortPercent) / 100;
+let minimalFreight = totalCosts / (1 - percentSum);
+
+if(!freight){
+    freight = minimalFreight;
+    document.getElementById("freight").value = Math.round(freight);
+}
+
+let driverSalary = freight * (driverPercent/100);
+let amortization = freight * (amortPercent/100);
+
+let profit = freight - (totalCosts + driverSalary + amortization);
+let profitability = freight ? (profit/freight)*100 : 0;
+
+let freightPerKm = totalKm ? freight/totalKm : 0;
+let freightPerTon = weight ? freight/weight : 0;
+let freightPerTonKm = tonKm ? freight/tonKm : 0;
+
+// Рекомендований фрахт
+let freight15 = totalCosts / (1 - percentSum - 0.15);
+let freight25 = totalCosts / (1 - percentSum - 0.25);
+
+let freight15PerKm = totalKm ? freight15/totalKm : 0;
+let freight25PerKm = totalKm ? freight25/totalKm : 0;
+
+let freight15PerTon = weight ? freight15/weight : 0;
+let freight25PerTon = weight ? freight25/weight : 0;
+
+let freight15PerTonKm = tonKm ? freight15/tonKm : 0;
+let freight25PerTonKm = tonKm ? freight25/tonKm : 0;
+
+// Вивід
+document.getElementById("totalKm").innerText = totalKm.toFixed(0);
+document.getElementById("fuelConsumption").innerText = fuelConsumption.toFixed(2);
+document.getElementById("fuelCost").innerText = fuelCost.toFixed(0);
+document.getElementById("totalCosts").innerText = totalCosts.toFixed(0);
+
+document.getElementById("fuelPerKm").innerText = fuelPerKm.toFixed(3);
+document.getElementById("costPerKm").innerText = costPerKm.toFixed(2);
+document.getElementById("costPerTon").innerText = costPerTon.toFixed(0);
+document.getElementById("minimalFreight").innerText = Math.round(minimalFreight);
+
+document.getElementById("freightPerKm").innerText = freightPerKm.toFixed(2);
+document.getElementById("freightPerTonCurrent").innerText = freightPerTon.toFixed(0);
+document.getElementById("freightPerTonKm").innerText = freightPerTonKm.toFixed(2);
+
+document.getElementById("driverSalary").innerText = Math.round(driverSalary);
+document.getElementById("amortization").innerText = Math.round(amortization);
+
+document.getElementById("profit").innerText = Math.round(profit);
+document.getElementById("profitability").innerText = profitability.toFixed(1);
+
+// Рекомендований фрахт
+let rec15 = document.getElementById("freight15");
+let rec25 = document.getElementById("freight25");
+
+rec15.innerText = Math.round(freight15) + " грн (" + freight15PerKm.toFixed(2) + " грн/км, " + freight15PerTon.toFixed(0) + " грн/т, " + freight15PerTonKm.toFixed(2) + " грн/т·км)";
+rec25.innerText = Math.round(freight25) + " грн (" + freight25PerKm.toFixed(2) + " грн/км, " + freight25PerTon.toFixed(0) + " грн/т, " + freight25PerTonKm.toFixed(2) + " грн/т·км)";
+
+// Колір
+let colorClass = "low";
+if(profitability < 0) colorClass="bad";
+else if(profitability <= 10) colorClass="low";
+else if(profitability <= 20) colorClass="medium";
+else colorClass="good";
+
+[
+"freightPerKm",
+"freightPerTonCurrent",
+"freightPerTonKm",
+"driverSalary",
+"amortization",
+"profit",
+"profitability"
+].forEach(id=>{
+document.getElementById(id).className = colorClass;
+});
+
+rec15.className = "medium";
+rec25.className = "good";
+
+}
+
+function initCalculator(){
+document.querySelectorAll("input").forEach(i=>i.addEventListener("input", calculateTrip));
+calculateTrip();
+}
+</script>
+
+</head>
+
+<body onload="initCalculator()">
+
+<h1>Калькулятор рентабельності рейсу</h1>
+<a href="index.html"><button>⬅ Головне меню</button></a>
+
+<div class="container">
+
+<div class="left">
+<h2>Ввідні дані</h2>
+
+<p>Порожній пробіг (км)</p>
+<input id="emptyKm" type="number" value="50">
+
+<p>Завантажений пробіг (км)</p>
+<input id="loadedKm" type="number" value="50">
+
+<p>Вага вантажу (т)</p>
+<input id="weight" type="number" value="24">
+
+<p>Норма витрати палива (л/100 км)</p>
+<input id="fuelNorm" type="number" value="27">
+
+<p>Коефіцієнт на вантаж</p>
+<input id="cargoCoef" type="number" step="0.01" value="0.9">
+
+<p>Ціна пального (грн/л)</p>
+<input id="fuelPrice" type="number" value="90">
+
+<p>Додаткові витрати (грн)</p>
+<input id="extraCosts" type="number" value="0">
+
+<p>Зарплата водія (%)</p>
+<input id="driverPercent" type="number" value="12">
+
+<p>Амортизація (%)</p>
+<input id="amortPercent" type="number" value="10">
+
+<p>Фрахт (грн)</p>
+<input id="freight" type="number">
+
+</div>
+
+<div class="right">
+
+<div class="resultBlock">
+<h2>Результат</h2>
+<p>Загальний пробіг: <b id="totalKm">0</b> км</p>
+<p>Витрата палива: <b id="fuelConsumption">0</b> л</p>
+<p>Вартість палива: <b id="fuelCost">0</b> грн</p>
+<p>Загальні витрати: <b id="totalCosts">0</b> грн</p>
+</div>
+
+<div class="resultBlock">
+<h2>Орієнтир для фрахту</h2>
+<p>Витрата на 1 км: <b id="fuelPerKm">0</b> л</p>
+<p>Вартість 1 км: <b id="costPerKm">0</b> грн</p>
+<p>Вартість 1 тонни: <b id="costPerTon">0</b> грн</p>
+<p>Мінімальний фрахт: <b id="minimalFreight">0</b> грн</p>
+</div>
+
+<div class="resultBlock">
+<h2>Показники рейсу</h2>
+<p>Фрахт за км: <b id="freightPerKm">0</b> грн</p>
+<p>Фрахт за тонну: <b id="freightPerTonCurrent">0</b> грн/т</p>
+<p>Фрахт за тонно-км: <b id="freightPerTonKm">0</b> грн/т·км</p>
+<p>Зарплата водія: <b id="driverSalary">0</b> грн</p>
+<p>Амортизація: <b id="amortization">0</b> грн</p>
+<p>Прибуток рейсу: <b id="profit">0</b> грн</p>
+<p>Рентабельність: <b id="profitability">0</b> %</p>
+</div>
+
+<div class="resultBlock">
+<h2>Рекомендований фрахт</h2>
+<p id="freight15">0</p>
+<p id="freight25">0</p>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

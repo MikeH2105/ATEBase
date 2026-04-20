@@ -1,171 +1,85 @@
  let cars = [
       {
         number: "АВ8018ІО",
-        insuranceDate: "2025-12-09",
-        techInspectionDate: "2025-12-02",
-        tachographCertificateDate: "2023-12-23"
+        insuranceDate: "2026-12-08",
+        techInspectionDate: "2026-12-08",
+        tachographCertificateDate: "2026-12-20"
       },
-      {
-        number: "АВ9268СХ",
-        insuranceDate: "2025-11-23",
-        techInspectionDate: "2025-11-07",
-        tachographCertificateDate: "1900-12-30"
-      },
-       {
-        number: "АВ4218ЕК",
-        insuranceDate: "2026-11-12",
-        techInspectionDate: "2025-11-18",
-        tachographCertificateDate: "2025-13-06"
-      },
+
          {
         number: "AB6442EK",
         insuranceDate: "2026-11-11",
-        techInspectionDate: "2025-11-18",
-        tachographCertificateDate: "2025-13-06"
+        techInspectionDate: "2026-11-11",
+        tachographCertificateDate: "2028-01-26"
       },
       {
         number: "АВ6188ВН",
         insuranceDate: "2026-10-23",
         techInspectionDate: "2026-10-22",
-        tachographCertificateDate: "2025-11-24"
+        tachographCertificateDate: "2028-02-20""
       },
       {
         number: "АВ7704HM",
-        insuranceDate: "2025-11-26",
-        techInspectionDate: "2025-11-20",
-        tachographCertificateDate: "2024-11-15"
-      },
-      {
-        number: "CE1031AT",
-        insuranceDate: "2024-12-18",
-        techInspectionDate: "2024-12-18",
-        tachographCertificateDate: "1900-12-30"
-      },
-      {
-        number: "AB3045BX",
-        insuranceDate: "2025-09-06",
-        techInspectionDate: "2025-09-11",
-        tachographCertificateDate: "2025-10-01"
+        insuranceDate: "2025-11-25",
+        techInspectionDate: "2026-11-24",
+        tachographCertificateDate: "2027-11-17"
       },
       {
         number: "AB1905IH",
-        insuranceDate: "2026-02-16",
-        techInspectionDate: "2026-02-04",
-        tachographCertificateDate: "2026-02-10"
-      },
-      {
-        number: "AB1884CP",
-        insuranceDate: "2025-10-10",
-        techInspectionDate: "2025-10-10",
-        tachographCertificateDate: "2025-01-30"
+        insuranceDate: "2027-03-17",
+        techInspectionDate: "2027-03-17",
+        tachographCertificateDate: "2027-02-10"
       },
       {
         number: "AB4219EK",
         insuranceDate: "2026-09-23",
-        techInspectionDate: "2026-09-23",
-        tachographCertificateDate: "2027-07-29"
+        techInspectionDate: "2026-09-19",
+        tachographCertificateDate: "2027-07-29"!!!!
       },
       {
         number: "AB9943BC",
-        insuranceDate: "2025-04-26",
+        insuranceDate: "2026-04-26",
         techInspectionDate: "17-04-2026",
-        tachographCertificateDate: "05-07-2023"
+        tachographCertificateDate: "05-07-2023"!!!!!!!!
       },
       {
         number: "AB7847CO",
-        insuranceDate: "2025-11-25",
-        techInspectionDate: "2026-01-29",
-        tachographCertificateDate: "2023-07-19"
+        insuranceDate: "2026-11-24",
+        techInspectionDate: "2027-01-26",
+        tachographCertificateDate: "2026-07-08"
       },
         {
         number: "AB4759IT",
         insuranceDate: "2026-09-04",
-        techInspectionDate: "2026-01-16",
-        tachographCertificateDate: "2025-09-01"
+        techInspectionDate: "2027-01-17",
+        tachographCertificateDate: "2026-09-01"
       },
        {
         number: "АВ5337СЕ",
-        insuranceDate: "2025-07-30",
-        techInspectionDate: "2025-07-29",
-        tachographCertificateDate: "2026-02-06"
-      },
-       {
-        number: "АВ7243СК",
-        insuranceDate: "2025-11-04",
-        techInspectionDate: "2025-11-01",
-        tachographCertificateDate: "2024-11-01"
-      },
-       {
-        number: "АВ7652СА",
-        insuranceDate: "2025-10-11",
-        techInspectionDate: "2026-04-22",
-        tachographCertificateDate: "2023-07-05"
+        insuranceDate: "2026-12-12",
+        techInspectionDate: "2026-12-11",
+        tachographCertificateDate: "2027-02-06"
       },
        {
         number: "АВ4459ЕІ",
-        insuranceDate: "2025-10-22",
-        techInspectionDate: "2025-10-08",
-        tachographCertificateDate: "2025-04-02"
-      },
-       {
-        number: "АВ8613ВХ",
-        insuranceDate: "2026-07-29",
-        techInspectionDate: "2026-07-28",
-        tachographCertificateDate: "2027-09-25"
-      },
-       {
-        number: "АВ8053СМ",
-        insuranceDate: "2025-12-10",
-        techInspectionDate: "2025-12-14",
-        tachographCertificateDate: "1900-12-30"
-      },
-  
-      {
-        number: "АВ1998СВ",
-        insuranceDate: "2026-08-27",
-        techInspectionDate: "2026-08-27",
-        tachographCertificateDate: "2027-01-23"
-      },
-       {
-        number: "АВ2345ВН",
-        insuranceDate: "2026-08-04",
-        techInspectionDate: "2026-08-05",
-        tachographCertificateDate: "2027-08-05"
+        insuranceDate: "2026-10-27",
+        techInspectionDate: "2026-10-28",
+        tachographCertificateDate: "2028-03-12"
       },
          {
-        number: "АВ8960EK",
-        insuranceDate: "2026-09-04",
-        techInspectionDate: "2025-10-14",
-        tachographCertificateDate: "2027-07-10"
+        number: "АВ7243СК",
+        insuranceDate: "2026-04-16",
+        techInspectionDate: "2026-04-16",
+        tachographCertificateDate: "2028-04-16"
       },
-       {
-        number: "АВ8094ЕК",
-        insuranceDate: "2025-09-04",
-        techInspectionDate: "2025-09-04",
-        tachographCertificateDate: "1900-12-30"
-      }
+      
     ];
 
     let trailers = [
       {
-        number: "АВ0016ХХ",
-        insuranceDate: "2025-12-07",
-        techInspectionDate: "2025-12-02"
-      },
-      {
-        number: "АВ0501ХМ",
-        insuranceDate: "2026-01-23",
-        techInspectionDate: "2026-01-09"
-      },     
-      {
         number: "АВ2891ХТ",
-        insuranceDate: "2026-02-18",
+        insuranceDate: "2027-02-11",
         techInspectionDate: "2027-02-12"
-      }, 
-      {
-        number: "АВ7265ХК",
-        insuranceDate: "2025-09-24",
-        techInspectionDate: "2025-09-24"
       }, 
       {
         number: "АВ0561ХР",
@@ -175,8 +89,8 @@
 
       {
         number: "АВ4457ХК",
-        insuranceDate: "2025-05-13",
-        techInspectionDate: "2025-05-20"
+        insuranceDate: "2026-09-18",
+        techInspectionDate: "2026-09-19"
       }, 
      
       {
@@ -186,23 +100,23 @@
       }, 
        {
         number: "АВ3186ХТ",
-        insuranceDate: "2026-04-23",
+        insuranceDate: "2026-04-22",
         techInspectionDate: "2026-04-22"
       }, 
       {
         number: "АВ4137ХТ",
-        insuranceDate: "2026-09-23",
-        techInspectionDate: "2025-10-07"
+        insuranceDate: "2026-09-22",
+        techInspectionDate: "2026-12-30"
       }, 
       {
         number: "АВ4382ХК",
-        insuranceDate: "2026-03-04",
-        techInspectionDate: "2026-03-03"
+        insuranceDate: "2027-03-03",
+        techInspectionDate: "2027-03-02"
       }, 
       {
         number: "АВ8027ХК",
         insuranceDate: "2026-01-30",
-        techInspectionDate: "2026-01-30"
+        techInspectionDate: "2027-01-29"
       }, 
       {
         number: "АВ5877ХР",
@@ -210,78 +124,59 @@
         techInspectionDate: "2025-10-08"
       }, 
       {
-        number: "АВ8959ХМ",
-        insuranceDate: "2025-08-09",
-        techInspectionDate: "2025-08-06"
-      }, 
-      {
-        number: "АВ1412ХО",
-        insuranceDate: "2025-05-08",
-        techInspectionDate: "2025-05-07"
+        number: "АВ8958ХМ",
+        insuranceDate: "2026-08-08",
+        techInspectionDate: "2026-08-06"
       }, 
       {
         number: "АВ1135ХМ",
-        insuranceDate: "2026-04-09",
-        techInspectionDate: "2026-04-09"
+        insuranceDate: "2027-04-08",
+        techInspectionDate: "2027-04-07"
       }, 
       {
         number: "АВ4314ХМ",
-        insuranceDate: "2025-12-14",
-        techInspectionDate: "2025-12-12"
+        insuranceDate: "2026-12-13",
+        techInspectionDate: "2026-12-12"
       }, 
       {
         number: "АВ7135ХК",
-        insuranceDate: "2025-12-07",
-        techInspectionDate: "2025-12-08"
+        insuranceDate: "2026-12-06",
+        techInspectionDate: "2026-12-26"
       }, 
-      {
-        number: "АВ9281ХК",
-        insuranceDate: "2026-01-19",
-        techInspectionDate: "2026-01-16"
-      }, 
-       {
-        number: "АВ2883ХТ",
-        insuranceDate: "2025-09-12",
-        techInspectionDate: "2025-09-13"
-      }, 
+
       {
         number: "АВ2075ХМ",
-        insuranceDate: "2025-12-13",
-        techInspectionDate: "2025-12-12"
+        insuranceDate: "2026-12-12",
+        techInspectionDate: "2026-12-12"
       }, 
       {
         number: "АВ4438ХК",
-        insuranceDate: "2026-07-09",
+        insuranceDate: "2026-07-08",
         techInspectionDate: "2026-08-12"
       }, 
       {
-        number: "АВ047ХF",
-        insuranceDate: "2025-10-11",
-        techInspectionDate: "2025-10-11"
-      }, 
-      {
         number: "АВ8399ХР",
-        insuranceDate: "2025-05-06",
+        insuranceDate: "2025-05-05",
         techInspectionDate: "2026-05-05"
       }, 
            {
-        number: "АВ8956ХМ",
-        insuranceDate: "2026-06-08",
-        techInspectionDate: "2026-08-05"
+        number: "АВ8958ХМ",
+        insuranceDate: "2026-08-08",
+        techInspectionDate: "2026-08-06"
       }, 
       {
         number: "АВ3480ХG",
-        insuranceDate: "2025-05-06",
-        techInspectionDate: "2025-05-06"
+        insuranceDate: "2026-05-04",
+        techInspectionDate: "2026-05-05"
       }, 
       {
         number: "АВ9656ХМ",
-        insuranceDate: "2025-11-04",
+        insuranceDate: "2026-12-24",
         techInspectionDate: "2026-03-27"
       },
       {
         number: "AB7085XF",
-        insuranceDate: "2026-09-15",
+        insuranceDate: "2026-10-21",
         techInspectionDate: "2026-09-15"
       },
       {
@@ -291,11 +186,9 @@
       },
   {
         number: "АВ4892ХТ",
-        insuranceDate: "2026-04-22",
+        insuranceDate: "2026-04-25",
         techInspectionDate: "2026-04-22"
       }
-
-
      
     ];
 

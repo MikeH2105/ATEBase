@@ -71,7 +71,7 @@
         insuranceDate: "2026-04-16",
         techInspectionDate: "2026-04-16",
         tachographCertificateDate: "2028-04-16"
-      }
+      },
       
     ];
 
@@ -188,7 +188,7 @@
         number: "АВ4892ХТ",
         insuranceDate: "2026-04-25",
         techInspectionDate: "2026-04-22"
-      }
+      },
      
     ];
 

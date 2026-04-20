@@ -16,7 +16,7 @@
         number: "АВ6188ВН",
         insuranceDate: "2026-10-23",
         techInspectionDate: "2026-10-22",
-        tachographCertificateDate: "2028-02-20""
+        tachographCertificateDate: "2028-02-20"
       },
       {
         number: "АВ7704HM",

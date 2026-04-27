@@ -186,8 +186,8 @@
       },
   {
         number: "АВ4892ХТ",
-        insuranceDate: "2026-04-25",
-        techInspectionDate: "2026-04-22"
+        insuranceDate: "2027-04-24",
+        techInspectionDate: "2027-04-27"
       }
      
     ];

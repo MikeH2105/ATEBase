@@ -40,7 +40,7 @@
         number: "AB9943BC",
         insuranceDate: "2026-04-26",
         techInspectionDate: "17-04-2026",
-        tachographCertificateDate: "05-07-2023"
+        tachographCertificateDate: "15-05-2028"
       },
       {
         number: "AB7847CO",
